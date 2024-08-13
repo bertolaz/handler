@@ -26,6 +26,7 @@ To create a user send a POST request to http://localhost:8080/users with the fol
 
 To get a user by id send a GET request to http://localhost:8080/users/{id} where {id} is the id of the user you want to get.
 
+Swagger is enabled in the application so you can see the api definition by going to http://localhost:8080/swagger/index.html
 ## Cool things to note
 
 ### Dependency injection (Inversion of control)
